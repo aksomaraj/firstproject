@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+.navbar .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar .navbar-brand:hover{
+    color: #0D8CDC;
+}
+.navbar .navbar-nav .nav-item a{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #0D8CDC;
+}
+.landing-sec h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+.landing-sec h1{
+    background-image: linear-gradient(to right, #0D8CDC, #11B0AB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 70px;
+}
+    
+.landing-sec p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+}
+.landing-sec .btn{
+    background-image: linear-gradient(to right, #0D8CDC, #11B0AB);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 130px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.landing-sec{
+    min-height: 100vh;
+    padding-top: 220px;
+}
+.about-sec{
+    padding: 60px;
+}
+.about-sec h1{
+    color: #11B0AB;
+    font-size: 80px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+.about-sec h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 500;
+}
+.about-sec h3{
+    color: #11B0AB;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.about-sec p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 350;
+    padding-bottom: 300px;
+}
+.footer h1{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer i{
+    color: #11B0AB;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.footer i:hover{
+    color: rgb(32, 38, 40);
+}
